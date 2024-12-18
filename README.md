@@ -52,7 +52,7 @@ cd mongodb-practice
 2. Use the `mongoimport` tool to load the dataset into your MongoDB instance:
 
    ```
-   mongoimport --db practice_db --collection employees --file data/mongo_practice_data.json --jsonArray
+   mongoimport --db practice_db --collection employees --file sample_data/books.json --jsonArray
    ```
 3. Verify the data has been imported correctly:
 
@@ -88,7 +88,7 @@ cd mongodb-practice
 
 We welcome contributions! Feel free to:
 
-- Add more datasets to the `data/` folder.
+- Add more datasets to the `sample_data/` folder.
 - Submit new practice questions or solutions.
 - Report bugs or suggest improvements.
 
@@ -102,6 +102,6 @@ We welcome contributions! Feel free to:
 ## 📬 Contact
 If you have any questions or feedback, feel free to reach out:
 
-Author: Imran Pasha
-Portfolio: [imranpashai.netlify.app](https://imranpashai.netlify.app)
-GitHub: [imran9663](https://github.com/imran9663)
+- Author: Imran Pasha
+- Portfolio: [imranpashai.netlify.app](https://imranpashai.netlify.app)
+- GitHub: [imran9663](https://github.com/imran9663)
